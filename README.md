@@ -1,1 +1,1 @@
-# stiedos-hyprland
+# stiedos-hypr

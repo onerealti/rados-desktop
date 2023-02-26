@@ -18,7 +18,7 @@ makepkg -si
 ### Packages
 
 ``` bash
-yay -S hyprland-bin polkit-gnome ffmpeg viewnior thunar starship wl-clipboard swaybg grimblast-git ffmpegthumbnailer playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin papirus-icon-theme dunst illum-git rofi-lbonn-wayland-git aritim-dark-gtk-git pulseaudio pulseaudio-bluetooth pamixer firefox-beta-bin brightnessctl android-tools
+yay -S hyprland-bin polkit-gnome ffmpeg viewnior thunar starship wl-clipboard swaybg grimblast-git ffmpegthumbnailer playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin papirus-icon-theme dunst illum-git rofi-lbonn-wayland-git aritim-dark-gtk-git pulseaudio pulseaudio-bluetooth pamixer firefox-beta-bin brightnessctl android-tools android-file-transfer
 ```
 
 ## Gotchas

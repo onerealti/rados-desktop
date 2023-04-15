@@ -18,7 +18,13 @@ makepkg -si
 ### Packages
 
 ``` bash
-yay -S hyprland-bin polkit-gnome ffmpeg viewnior thunar starship wl-clipboard swaybg grimblast-git ffmpegthumbnailer playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin papirus-icon-theme dunst illum-git rofi-lbonn-wayland-git aritim-dark-gtk-git pulseaudio pulseaudio-bluetooth pamixer firefox-beta-bin brightnessctl android-tools android-file-transfer
+yay -S hyprland polkit-gnome ffmpeg rofi thunar starship wl-clipboard wf-recorder swaybg grimblast-git ffmpegthumbnailer tumbler playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin aritim-dark-gtk-git papirus-icon-theme dunst illum-git firefox-beta-bin brightnessctl android-tools android-file-transfer
+
+fonts = otf-sora   \
+ttf-nerd-fonts-symbols-common otf-firamono-nerd inter-font    \
+ttf-fantasque-nerd noto-fonts noto-fonts-emoji ttf-comfortaa  \
+ttf-jetbrains-mono-nerd ttf-icomoon-feather ttf-iosevka-nerd  \
+adobe-source-code-pro-fonts
 ```
 
 ## Gotchas
@@ -30,18 +36,19 @@ yay -S hyprland-bin polkit-gnome ffmpeg viewnior thunar starship wl-clipboard sw
 
 ## Bugs
 
-- Hyprland is still in beta (v0.22beta) as of the creation of these dot files
+- Hyprland is still in beta (0.2) as of the creation of these dot files
+- Sometimes my RX5700XT goes to sleep and requires a reload, because it is stuck on black screen.
 
 ## Work In Progress
 
+- [ ] Help Popup with Hotkey
 - [ ] Wayland guide for nwg-look, wlr-randr, etc.
 - [ ] Synergy Workaround - Looking at waynergy or just using KVM
 - [ ] Gamescope Addition - Adding more parity with Steamdeck features
 - [x] More Customizations for Waybar - Battery, Backlight, etc.
-- [ ] Auto-configuration
+- [ ] Auto-configuration - Long term goal
 
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
 - Linux Mobiles Hyprland dot files <https://github.com/linuxmobile/hyprland-dots>
-- Chris Titus Hyprland Files <https://github.com/ChrisTitusTech/hyprland-titus>

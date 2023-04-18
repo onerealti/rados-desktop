@@ -4,15 +4,10 @@
 
 ## Install
 
-### Yay
-
-Run as user NOT ROOT!
+### Installing yay <github.com/Jguer/yay>
 
 ```
-# Before this you need base-devel installed
-git clone https://aur.archlinux.org/yay-bin
-cd yay-bin
-makepkg -si
+$pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
 ### Packages
@@ -69,12 +64,8 @@ adobe-source-code-pro-fonts
 
 ## Work In Progress
 
-- [ ] Help Popup with Hotkey
-- [ ] Wayland guide for nwg-look, wlr-randr, etc.
-- [ ] Synergy Workaround - Looking at waynergy or just using KVM
-- [ ] Gamescope Addition - Adding more parity with Steamdeck features
-- [x] More Customizations for Waybar - Battery, Backlight, etc.
-- [ ] Auto-configuration - Long term goal
+- [ ] Auto-configuration
+- [ ] Full fledged daily driver
 
 ## Sources used making these
 

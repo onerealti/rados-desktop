@@ -18,7 +18,36 @@ makepkg -si
 ### Packages
 
 ``` bash
-yay -S hyprland polkit-gnome ffmpeg rofi thunar starship wl-clipboard wf-recorder swaybg grimblast-git ffmpegthumbnailer tumbler playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin aritim-dark-gtk-git papirus-icon-theme dunst illum-git firefox-beta-bin brightnessctl android-tools android-file-transfer
+yay -S
+
+hyprland
+polkit-kde-agent
+ffmpeg
+rofi
+pavucontrol
+thunar
+starship
+wl-clipboard
+wf-recorder
+swaybg
+grimblast-git
+ffmpegthumbnailer
+tumbler
+playerctl
+kitty 
+waybar-hyprland 
+wlogout 
+swaylock-effects 
+sddm-git
+pamixer
+nwg-look-bin 
+aritim-dark-gtk-git 
+papirus-icon-theme 
+dunst 
+illum-git 
+brightnessctl 
+android-tools 
+android-file-transfer
 
 fonts = otf-sora   \
 ttf-nerd-fonts-symbols-common otf-firamono-nerd inter-font    \
@@ -34,10 +63,9 @@ adobe-source-code-pro-fonts
 - SDDM needs to be configured for autologin (recommend using swaylock on start of script for security)
 - Replace xdg-desktop-portal-wlr with **[xdg-desktop-portal-hyprland-git](https://wiki.hyprland.org/hyprland-wiki/pages/Useful-Utilities/Hyprland-desktop-portal/)**
 
-## Bugs
+## Note
 
-- Hyprland is still in beta (0.2) as of the creation of these dot files
-- Sometimes my RX5700XT goes to sleep and requires a reload, because it is stuck on black screen.
+- Hyprland is still in beta (v0.24.1) as of latest commit.
 
 ## Work In Progress
 
@@ -50,5 +78,6 @@ adobe-source-code-pro-fonts
 
 ## Sources used making these
 
-- Official Hyprland Github <https://github.com/hyprwm/Hyprland>
-- Linux Mobiles Hyprland dot files <https://github.com/linuxmobile/hyprland-dots>
+- Official Hyprland Github <github.com/hyprwm/Hyprland>
+- Linux Mobiles Hyprland dot files <github.com/linuxmobile/hyprland-dots>
+- Chris's config files <github.com/ChrisTitusTech/hyprland-titus>

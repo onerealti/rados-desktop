@@ -1,10 +1,9 @@
 # RadOS Desktop
 
-#![Screenshot](https://github.com/onerealti/raw/main/rados-hypr.png)
-
 ## Install
 
-### Installing **[Yay](https://github.com/Jguer/yay)**
+- **[Arch Linux](https://archlinux.org)** with Sway as DE
+### **[Yay](https://github.com/Jguer/yay)**
 
 ```
 $ pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
@@ -38,7 +37,9 @@ pamixer   \
 nwg-look-bin   \ 
 aritim-dark-gtk-git   \ 
 papirus-icon-theme   \ 
-dunst   \ 
+dunst   \
+udiskie   \
+ntfs-3g   \
 illum-git   \ 
 brightnessctl   \ 
 android-tools   \ 
@@ -51,10 +52,20 @@ ttf-jetbrains-mono-nerd ttf-icomoon-feather ttf-iosevka-nerd  \
 adobe-source-code-pro-fonts
 ```
 
+### **[Bluetooth Headset](https://wiki.archlinux.org/title/bluetooth_headset)**
+
+``` bash
+pulseaudio-bluetooth
+bluez
+bluez-utils
+```
+
 ## Imps
 
-- Recommended archinstall with Sway as DE
+- **[Sound Open Firmware](https://github.com/thesofproject/sof-bin)**
 - Replace xdg-desktop-portal-wlr with **[xdg-desktop-portal-hyprland-git](https://wiki.hyprland.org/hyprland-wiki/pages/Useful-Utilities/Hyprland-desktop-portal/)**
+- chmod +x ~/.config/hypr/xdg-portal-hyprland
+- chmod +x ~/.config/waybar/scripts/waybar-wttr.py
 
 ## Note
 

@@ -42,7 +42,7 @@ udiskie   \
 ntfs-3g   \
 illum-git   \ 
 brightnessctl   \ 
-android-sdk-platform-tools   \ 
+android-tools   \ 
 android-file-transfer   \
 
 fonts = otf-sora   \
